@@ -17,7 +17,7 @@
     <div class="login-card-luxury">
         <!-- Logo de Mariana Nails -->
         <div class="logo-container">
-            <img src="logo.png" alt="Mariana Nails Studio" class="brand-logo">
+            <img src="Logo.png" alt="Mariana Nails Studio" class="brand-logo">
         </div>
         
         <p class="login-subtitle">Ingresa tus datos para acceder a tu experiencia</p>
