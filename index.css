@@ -96,23 +96,26 @@
 .input-wrapper input:focus {
     border-color: var(--luxury-gold);
     background-color: #ffffff;
-    box-shadow: 0 0 0 4px rgb(197, 155, 39); /* Brillo dorado suave al hacer clic */
+    box-shadow: 0 0 0 4px rgba(197, 155, 39, 0.12); /* Brillo dorado suave al hacer clic */
 }
 .input-wrapper input::placeholder {
     color: #b3a9a4;
     opacity: 1;
 }
+/* Botón principal más claro, luminoso y llamativo */
 .btn-luxury {
     width: 100%;
-    background: linear-gradient(135deg, #4a3b37 0%, #3a2e2b 100%);
-    color: #fbf9f7;
+    /* Cambiamos a un degradado con tonos dorados y cálidos del logo */
+    background: linear-gradient(135deg, #d4af37 0%, #b89728 100%);
+    /* Texto oscuro para que tenga un contraste perfecto y se lea con total claridad */
+    color: #2b2d42;
     border: none;
     padding: 15px;
     border-radius: 14px;
-    font-size: 0.95rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 600; /* Letra más marcada */
     cursor: pointer;
-    box-shadow: 0 4px 15px rgba(58, 46, 43, 0.15);
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3); /* Sombra dorada suave */
     transition: transform 0.2s ease, opacity 0.2s ease;
     letter-spacing: 0.5px;
 }
@@ -120,8 +123,8 @@
 .btn-luxury:hover {
     opacity: 0.95;
     transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
 }
-
 .luxury-divider {
     margin: 25px 0;
     border-bottom: 1px solid var(--luxury-border);
