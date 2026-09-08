@@ -96,7 +96,7 @@
 .input-wrapper input:focus {
     border-color: var(--luxury-gold);
     background-color: #ffffff;
-    box-shadow: 0 0 0 4px rgba(197, 155, 39, 0.12); /* Brillo dorado suave al hacer clic */
+    box-shadow: 0 0 0 4px rgb(197, 155, 39); /* Brillo dorado suave al hacer clic */
 }
 .input-wrapper input::placeholder {
     color: #b3a9a4;
