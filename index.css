@@ -105,17 +105,17 @@
 /* Botón principal más claro, luminoso y llamativo */
 .btn-luxury {
     width: 100%;
-    /* Cambiamos a un degradado con tonos dorados y cálidos del logo */
-    background: linear-gradient(135deg, #b1994a 0%, #b89728 100%);
-    /* Texto oscuro para que tenga un contraste perfecto y se lea con total claridad */
-    color: #2b2d42;
+    /* Usamos un tono dorado cálido y profundo que coincide con la muestra */
+    background: linear-gradient(135deg, #d98e12 0%, #c57d0a 100%);
+    /* Texto en blanco o un marrón muy oscuro para mantener la elegancia y visibilidad */
+    color: #ffffff;
     border: none;
     padding: 15px;
     border-radius: 14px;
     font-size: 1rem;
-    font-weight: 600; /* Letra más marcada */
+    font-weight: 600;
     cursor: pointer;
-    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3); /* Sombra dorada suave */
+    box-shadow: 0 4px 15px rgba(217, 142, 18, 0.35);
     transition: transform 0.2s ease, opacity 0.2s ease;
     letter-spacing: 0.5px;
 }
@@ -123,7 +123,7 @@
 .btn-luxury:hover {
     opacity: 0.95;
     transform: translateY(-1px);
-    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+    box-shadow: 0 6px 20px rgba(217, 142, 18, 0.45);
 }
 .luxury-divider {
     margin: 25px 0;
