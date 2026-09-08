@@ -106,7 +106,7 @@
 .btn-luxury {
     width: 100%;
     /* Cambiamos a un degradado con tonos dorados y cálidos del logo */
-    background: linear-gradient(135deg, #d4af37 0%, #b89728 100%);
+    background: linear-gradient(135deg, #b1994a 0%, #b89728 100%);
     /* Texto oscuro para que tenga un contraste perfecto y se lea con total claridad */
     color: #2b2d42;
     border: none;
