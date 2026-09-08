@@ -1,0 +1,165 @@
+:root {
+    --luxury-gold: #c59b27;
+    --luxury-dark: #3a2e2b;
+    --luxury-bg: #1a1514;
+    --luxury-card: #ffffff;
+    --luxury-border: #dcd6d0; /* Un borde un poco más suave y visible */
+    --luxury-muted: #8c827f;
+}
+
+.login-body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--luxury-bg);
+    color: var(--luxury-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    margin: 0;
+}
+
+.login-card-luxury {
+    width: 100%;
+    max-width: 420px;
+    background: var(--luxury-card);
+    padding: 40px 30px;
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(58, 46, 43, 0.04);
+    border: 1px solid rgba(197, 155, 39, 0.15);
+    text-align: center;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-logo {
+    max-width: 200px;
+    height: auto;
+    object-fit: contain;
+}
+
+.login-subtitle {
+    font-size: 0.88rem;
+    color: var(--luxury-muted);
+    margin-bottom: 30px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+}
+
+.form-group-luxury {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group-luxury label {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--luxury-dark);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper i {
+    position: absolute;
+    left: 15px;
+    color: var(--luxury-muted);
+    font-size: 0.95rem;
+}
+
+.input-wrapper input {
+    width: 100%;
+    padding: 14px 15px 14px 45px;
+    border: 1px solid var(--luxury-border);
+    border-radius: 14px;
+    font-size: 0.95rem;
+    outline: none;
+    /* Cambiamos a un fondo blanco puro para que se vea iluminado */
+    background-color: #ffffff; 
+    color: var(--luxury-dark);
+    font-family: 'Inter', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.input-wrapper input:focus {
+    border-color: var(--luxury-gold);
+    background-color: #ffffff;
+    box-shadow: 0 0 0 4px rgba(197, 155, 39, 0.12); /* Brillo dorado suave al hacer clic */
+}
+.input-wrapper input::placeholder {
+    color: #b3a9a4;
+    opacity: 1;
+}
+.btn-luxury {
+    width: 100%;
+    background: linear-gradient(135deg, #4a3b37 0%, #3a2e2b 100%);
+    color: #fbf9f7;
+    border: none;
+    padding: 15px;
+    border-radius: 14px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(58, 46, 43, 0.15);
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    letter-spacing: 0.5px;
+}
+
+.btn-luxury:hover {
+    opacity: 0.95;
+    transform: translateY(-1px);
+}
+
+.luxury-divider {
+    margin: 25px 0;
+    border-bottom: 1px solid var(--luxury-border);
+    position: relative;
+}
+
+.luxury-divider span {
+    position: absolute;
+    top: -9px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--luxury-card);
+    padding: 0 12px;
+    font-size: 0.72rem;
+    color: var(--luxury-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-admin-luxury {
+    background: transparent;
+    border: 1px solid var(--luxury-border);
+    color: var(--luxury-muted);
+    width: 100%;
+    padding: 12px;
+    border-radius: 14px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: all 0.2s ease;
+}
+
+.btn-admin-luxury:hover {
+    border-color: var(--luxury-gold);
+    color: var(--luxury-dark);
+    background-color: var(--luxury-bg);
+}
